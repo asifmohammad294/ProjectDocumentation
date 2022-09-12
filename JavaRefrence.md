@@ -11,3 +11,14 @@
 - Secondly setup below key, values in system environment variables.
 - MAVEN_HOME : C:\apache-maven-3.8.6
 - path : C:\apache-maven-3.8.6\bin
+
+# Important Dependencies
+
+##  Dependencies for Testing
+### AssertJ
+    <dependency>
+      <groupId>org.assertj</groupId>
+      <artifactId>assertj-core</artifactId>
+      <version>3.10.0</version>
+      <scope>test</scope>
+    </dependency>
