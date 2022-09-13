@@ -22,3 +22,7 @@
       <version>3.10.0</version>
       <scope>test</scope>
     </dependency>
+
+**Note:** - Field injection used for testing is slower then constructor injection.
+
+
