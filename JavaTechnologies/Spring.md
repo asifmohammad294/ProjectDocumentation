@@ -4,3 +4,7 @@
 with shared messaging system like Kafka, RabbitMQ, Google PubSub.
 - we can produces/process/consume data stream with any message broker (Kafka/RabbitMQ) without much 
 configuration.
+
+
+
+![](./spring.drawio.png)
