@@ -8,3 +8,6 @@ configuration.
 
 
     ![](./spring.drawio.png)
+ 
+
+- The producer/processor/consumer simplified using java 8's functional interfaces.
