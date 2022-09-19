@@ -130,3 +130,7 @@ configuration.
 	}
 
 	}
+
+
+# contract-verifier dependency
+	testImplementation('org.springframework.cloud:spring-cloud-starter-contract-verifier')
