@@ -7,3 +7,8 @@
    - git push -u origin master
    - git pull origin master
    - git push --force origin master
+
+
+# For setting credentials on console
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
