@@ -1,5 +1,7 @@
 <h1 style="text-align:center">Getting Started Guides</h1>
 
+<h2 style="text-align:center">Level1Guides</h2>
+
 #### Building a RESTful Web Service         
 Learn how to create a RESTful web service with Spring.
 
@@ -50,6 +52,14 @@ Learn how to import a Getting Started guide with Spring Tool Suite (STS).
 
 #### Accessing data with MySQL
 Learn how to set up and manage user accounts on MySQL and how to configure Spring Boot to connect to it at runtime.
+
+<h2 style="text-align:center">Level2Guides</h2>
+
+#### Caching Data with Spring
+Learn how to cache data in memory with Spring
+
+#### Spring Boot with Docker
+Learn how to create a Docker container from a Spring Boot application with Maven or Gradle
 
 ### Uploading Files
 Learn how to build a Spring application that accepts multi-part file uploads.
@@ -161,12 +171,6 @@ Learn how to work with RESTful, hypermedia-based data persistence using Spring D
 
 ### Accessing Data in Pivotal GemFire with REST
 Learn how to work with RESTful, hypermedia-based data persistence using Spring Data REST.
-
-### Caching Data with Spring
-Learn how to cache data in memory with Spring
-
-### Spring Boot with Docker
-Learn how to create a Docker container from a Spring Boot application with Maven or Gradle
 
 ### Creating CRUD UI with Vaadin
 Use Vaadin and Spring Data JPA to build a dynamic UI
