@@ -33,10 +33,10 @@ Learn how to create a RESTful Web service with Spring Boot Actuator.
 ### Accessing data with MySQL (Done)
 Learn how to set up and manage user accounts on MySQL and how to configure Spring Boot to connect to it at runtime.
 
-### Accessing Data with MongoDB 
+### Accessing Data with MongoDB  (Done)
 Learn how to persist data in MongoDB.
 
-### Accessing MongoDB Data with REST
+### Accessing MongoDB Data with REST (Done)
 Learn how to work with RESTful, hypermedia-based data persistence using Spring Data REST.
 
 ### Testing the Web Layer
