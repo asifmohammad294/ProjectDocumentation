@@ -21,3 +21,23 @@
 }
 ```
 
+# Connect to EC2 Instance via SSH Command
+
+```console
+ssh -i .\ec2_key_pair.pem ec2-user@13.126.117.233
+```
+
+** *Note: Open Powershell or Cmd where .pem file is located.*
+
+# Script to setup httpd web server
+    #!/bin/bash
+    #Use this for your user data (script from top to bottom)
+    #install httpd (Linux 2 version)
+    yum update -y
+    yum install -y httpd
+    systemctl start httpd
+    systemctl enable httpd
+    echo "<h1>Hello World from $(hostname -f)</h1>" > /var/www/html/index.html
+
+# for giving read write execute permission to file or folder
+sudo chmod a+rwx filename/foldername
