@@ -5,6 +5,7 @@
 ```console
 - aws iam list-users
 ```
+
 ```json
 - output
 {
@@ -39,5 +40,15 @@ ssh -i .\ec2_key_pair.pem ec2-user@13.126.117.233
     systemctl enable httpd
     echo "<h1>Hello World from $(hostname -f)</h1>" > /var/www/html/index.html
 
-# for giving read write execute permission to file or folder
-sudo chmod a+rwx filename/foldername
+
+# EBS(Elastic Block Storage)
+- it is a volume in network drive we can attach to our instance when they run.
+- the data will persist even after the instance termination.
+- on (ccp level), ebs vol can be mounted only one one instance.
+- it is bound to a specific availability zone.
+- it is like a network USB stick
+- free tier : 30 gb ebs storage of type General SSD or magnetic.
+
+# EBS Snapshots
+- used to make a backup of ebs volume at any point of time.
+- can transfer snapshots accross AZ or Region.
