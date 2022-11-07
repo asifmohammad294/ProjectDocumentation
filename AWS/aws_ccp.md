@@ -52,3 +52,7 @@ ssh -i .\ec2_key_pair.pem ec2-user@13.126.117.233
 # EBS Snapshots
 - used to make a backup of ebs volume at any point of time.
 - can transfer snapshots accross AZ or Region.
+
+
+# CloudFormation
+
