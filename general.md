@@ -5,3 +5,14 @@ sudo chmod a+rwx filename/foldername
     ```console
     sudo amazon-linux-extras install java-openjdk11
     ```
+
+# h2 database in spring boot application.properties
+```application.properties
+spring.datasource.url=jdbc:h2:mem:books_data
+spring.datasource.driverClassName=org.h2.Driver
+spring.datasource.username=sa
+spring.datasource.password=
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+
+spring.h2.console.enabled=true
+```
